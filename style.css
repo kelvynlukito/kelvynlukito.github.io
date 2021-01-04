@@ -1,0 +1,164 @@
+*{
+    font-family: Poppins;
+    padding: 0
+    margin: 0
+}
+.bar-container{
+    width: 1110px;
+    margin:  auto;
+}
+nav {
+    height : 53px;
+    width : 100%;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+
+}
+.nav-logo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    /* identical to box height */
+    color: #480CA8;
+}
+
+.nav-links a{
+    margin : 0 50px;
+    text-decoration: none;
+    color: #000000;
+    
+}
+a.active{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #480CA8;
+}
+.row-hero{
+    font-family: poppins;
+}
+.col h1{
+    width: 583px;
+height: 75px;
+left: 130px;
+top: 200px;
+margin-top: 80px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 40px;
+    line-height: 121px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #000000;
+
+}
+.col p{
+    width: 460px;
+height: 200px;
+left: 130px;
+top: 279px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 50px;
+/* or 167% */
+
+letter-spacing: 0.04em;
+
+color: rgba(53, 53, 53, 0.74);
+}
+
+.row-profile p{
+    width: 500px;
+height: 150px;
+left: 130px;
+top: 489px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+color: rgba(53, 53, 53, 0.52);
+}
+.row-button{
+    
+}
+.button-emailme{
+    padding: 5px 29px;
+background: #480CA8;
+border :none;
+text-decoration: none;
+
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+color: #FFFFFF;
+ 
+}
+.button-portofolio{
+    padding: 3px 27px;
+    text-decoration: none;
+
+border: 2px solid #a598bb;
+background-color: none;
+cursor: pointer;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+}
+.row-sosial p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 150%;
+/* identical to box height, or 37px */
+
+
+color: #353535;
+
+width: 200px;
+height: 38px;
+left: 130px;
+top: 740px;
+}
+
+
+.picture-hero{
+    width: 415px;
+    height: 415px;
+    left: 822px;
+    top: 243px;
+}
+
+.picture-hero{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr ;
+    column-gap: 24px;
+   
+}
