@@ -46,6 +46,7 @@ a.active{
 .row-hero{
     font-family: poppins;
     display: flex;
+    align-content: center;
 }
 .col h1{
     width: 583px;
@@ -151,15 +152,18 @@ height: 38px;
 left: 130px;
 top: 740px;
 }
-.sosial-media a{
+.sosial-media a img{
     margin-right: 20px;
     text-decoration: none;
+    width: 48px;
+    height: 48px;
 }
 
 .picture-hero img{
-    margin-top : 50px;
-    margin-left: 20px;
-    height: 650px;
-    width: 800px;
+   
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
 }
 
