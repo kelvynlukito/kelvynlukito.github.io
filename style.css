@@ -45,6 +45,7 @@ a.active{
 }
 .row-hero{
     font-family: poppins;
+    display: flex;
 }
 .col h1{
     width: 583px;
@@ -97,7 +98,7 @@ color: rgba(53, 53, 53, 0.52);
 }
 
 .row-button{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 .button-emailme{
     padding: 5px 29px;
@@ -155,13 +156,10 @@ top: 740px;
     text-decoration: none;
 }
 
-.picture-hero{
-    width: 415px;
-    height: 415px;
-    left: 822px;
-    top: 243px;
+.picture-hero img{
+    margin-top : 50px;
+    margin-left: 20px;
+    height: 650px;
+    width: 800px;
 }
 
-.picture-hero{
-    
-}
