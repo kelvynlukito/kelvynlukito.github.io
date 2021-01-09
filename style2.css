@@ -1,7 +1,7 @@
 *{
     font-family: poppins;
 }
-.bar-container{
+.container{
     width: 1140px;
     margin:  auto;
     
@@ -29,9 +29,10 @@ nav {
     text-decoration: none;
     color: #000000;
 }
-.container{
+.row-hero{
     margin : auto;
     display: center;
+    text-align: center;
 }
 
 .col h1{
